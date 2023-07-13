@@ -63,11 +63,38 @@ apt -f install <br>
 dpkg -r mysql-router <br>
 rm mysql-router_8.0.33-1ubuntu22.04_amd64.deb <br>
 
-## Задание 5 
-6. Нарисовать диаграмму, в которой есть класс родительский класс, домашние животные и вьючные животные, в составы которых в случае домашних
+## Задание 6
+Нарисовать диаграмму, в которой есть класс родительский класс, домашние животные и вьючные животные, в составы которых в случае домашних
 животных войдут классы: собаки, кошки, хомяки, а в класс вьючные животные войдут: Лошади, верблюды и ослы). <br>
 <br>
-![image](https://github.com/GalinaDei/Final_controll_work/assets/114139568/dfcbd2aa-7bec-44fd-9dc3-00d9994198e6)
+
+![image](https://github.com/GalinaDei/Final_controll_work/assets/114139568/0ee392ad-37af-4dd0-9c31-1601c0cc9b88)
+
+## Задание 7
+ В подключенном MySQL репозитории создать базу данных “Друзья человека” <br>
+<br>
+![image](https://github.com/GalinaDei/Final_controll_work/assets/114139568/5cfe2e57-d61f-47d8-9842-047789aa6b39)
+<br>
+## Задание 8
+<br>
+ Создать таблицы с иерархией из диаграммы в БД
+<br>
+![image](https://github.com/GalinaDei/Final_controll_work/assets/114139568/e6322233-3ad7-416f-bd91-ba40609d9794)
+![image](https://github.com/GalinaDei/Final_controll_work/assets/114139568/025322c5-b9bb-427c-9967-ce10b626cfb4)
+![image](https://github.com/GalinaDei/Final_controll_work/assets/114139568/50e14ac8-a169-4f9a-ad9f-c87852c1808c)
+<br>
+# Задание 9
+<br>
+Заполнить низкоуровневые таблицы именами(животных), командами которые они выполняют и датами рождения
+<br>
+![image](https://github.com/GalinaDei/Final_controll_work/assets/114139568/bee34e52-4689-4315-bcbd-845f11e77937)
+<br>
+# Задание 10
+<br>
+Удалив из таблицы верблюдов, т.к. верблюдов решили перевезти в другой питомник на зимовку. Объединить таблицы лошади, и ослы в одну таблицу.
+
+<br>
+
 
 
 
