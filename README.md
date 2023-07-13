@@ -79,7 +79,9 @@ rm mysql-router_8.0.33-1ubuntu22.04_amd64.deb <br>
 <br>
  Создать таблицы с иерархией из диаграммы в БД
 <br>
-![image](https://github.com/GalinaDei/Final_controll_work/assets/114139568/e6322233-3ad7-416f-bd91-ba40609d9794)
+
+![image](https://github.com/GalinaDei/Final_controll_work/assets/114139568/07a759ab-dcba-4644-9c33-7e4c7b18c898)
+
 ![image](https://github.com/GalinaDei/Final_controll_work/assets/114139568/025322c5-b9bb-427c-9967-ce10b626cfb4)
 ![image](https://github.com/GalinaDei/Final_controll_work/assets/114139568/50e14ac8-a169-4f9a-ad9f-c87852c1808c)
 <br>
@@ -87,7 +89,9 @@ rm mysql-router_8.0.33-1ubuntu22.04_amd64.deb <br>
 <br>
 Заполнить низкоуровневые таблицы именами(животных), командами которые они выполняют и датами рождения
 <br>
+
 ![image](https://github.com/GalinaDei/Final_controll_work/assets/114139568/bee34e52-4689-4315-bcbd-845f11e77937)
+
 <br>
 # Задание 10
 <br>
