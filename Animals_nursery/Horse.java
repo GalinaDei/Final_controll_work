@@ -1,13 +1,13 @@
-package Animals_nursery;
+package Animals;
 
-public class Dog extends HomeAnimal{
-    public Dog(String name, String date) {
+public class Horse extends PackAnimal{
+    public Horse(String name, String date) {
         super(name, date);
     }
 
     @Override
     public String toString() {
-        return "Dog {" +
+        return "Horse {" +
                 "name = '" + super.getName() + '\'' +
                 ", commands = " + super.getCommands() +
                 ", dateOfBirth = '" + super.getDateOfBirth() + '\'' +

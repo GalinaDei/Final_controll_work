@@ -1,39 +1,47 @@
-// Задание 13. Создать класс с Инкапсуляцией методов и наследованием по диаграмме.
+package Animals_nursery;
+
+import java.util.ArrayList;
 
 public abstract class Animal {
-    private int id;
     private String name;
-    private Strung dateOfBirth;
-    
-    public Animal(int id, String name, String dateOfBirth) {
-        this.id = id;
-        this.name = name;
-        this.dateOfBirth = dateOfBirth;
-    }   
-    public int getId() {
-        return id;
-    }
+    private ArrayList commands = new ArrayList<String>();
+    private String dateOfBirth;
 
-    public int setId(int id) {
-        return this.id = id;
+    public Animal(String name, String date){
+        setName(name);
+        setDateOfBirth(date);
     }
 
     public String getName() {
         return name;
     }
 
-    public String setName(String name) {
-        return this.name = name;
+    private void setName(String name) {
+        this.name = name;
     }
 
-    public String getBirthdate() {
+    public String getCommands() {
+        return commands.toString();
+    }
+
+    /*private void setCommands(String commands) {
+        this.commands.add(commands);
+    }*/
+
+    public String getDateOfBirth() {
         return dateOfBirth;
     }
 
-    public String setBirthdate(String dateOfBirth) {
-        return this.dateOfBirth = dateOfBirth;
+    private void setDateOfBirth(String dateOfBirth) {
+        this.dateOfBirth = dateOfBirth;
     }
-    public String toString () {
-        return("id: "+id+"; name: "+name+"; type: "+type+"." );
+
+    @Override
+    public String toString() {
+        return "Animal {" +
+                "name = '" + name + '\'' +
+                ", commands = " + commands.toString() +
+                ", dateOfBirth = '" + dateOfBirth + '\'' +
+                '}';
     }
 }

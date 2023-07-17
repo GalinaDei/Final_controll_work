@@ -1,16 +1,16 @@
-public class Hamster extends HomeAnimal {
-    private String type;
-    private String commands;
-    public Hamster(int id, String name, String dateOfBirth) {
-        super(id, name, dateOfBirth);
-        this.type = hamster;
+package Animals_nursery;
+
+public class Hamster extends HomeAnimal{
+    public Hamster(String name, String date) {
+        super(name, date);
     }
-    public Hamster(int id, String name, String dateOfBirth, String commands) {
-        super(id, name, dateOfBirth);
-        this.type = hamster;
-    }
-    public String getCommans() { return  commands;}
-    public String setCommands() {
-        return commands;
+
+    @Override
+    public String toString() {
+        return "Hamster {" +
+                "name = '" + super.getName() + '\'' +
+                ", commands = " + super.getCommands() +
+                ", dateOfBirth = '" + super.getDateOfBirth() + '\'' +
+                '}';
     }
 }

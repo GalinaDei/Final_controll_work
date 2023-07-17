@@ -1,22 +1,16 @@
+package Animals;
+
 public class PackAnimal extends Animal {
-    private int age;
-    boolean yang;
-    public PackAnimal(int id, String name, String dateOfBirth) {
-        super(id, name, dateOfBirth);
-    }
-    public int getAge() {
-        return age;
-    }
-    public int setAge () {
-        return age;
+    public PackAnimal(String name, String date) {
+        super(name, date);
     }
 
-    Strig IsYang() {
-        if(yang == true) {return "Animal is yang.";}
-        else {return "Animal is not yang.";}
-    }
-    boolean setYang() {
-        if (this.age < 3 && this.age > 0) { return yang = true;
-        } else { return yang = false; }
+    @Override
+    public String toString() {
+        return "Pack Animal {" +
+                "name = '" + super.getName() + '\'' +
+                ", commands = " + super.getCommands() +
+                ", dateOfBirth = '" + super.getDateOfBirth() + '\'' +
+                '}';
     }
 }
